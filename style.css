@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+    transition: all 0.3s;
+}
+
+body {
+
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#013457, #014c7f) no-repeat;
+}
+
+#body-bg {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.float-vector {
+    position: absolute;
+    top: 115px;
+    width: 8.8vw;
+    z-index: -1;
+}
+
+.float-vector-right {
+    right: 0;
+}
+
+/* Header Section - CSS  */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100vw;
+    background: radial-gradient(#003254, #012137);
+    border-bottom: 1px solid #278FD0;
+}
+
+.header-lines {
+    width: 37vw;
+}
+
+.header-logo {
+    width: 16.5vw;
+}
+
+
+
+/* main content - css  */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 100px auto;
+    width: 687px;
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: 0 0 250px #1FA2FC80;
+
+}
+
+/* Form Section- CSS */
+.form-header {
+    position: relative;
+}
+
+.form-header .more-info {
+    color: #EEF2F5;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
+
+/* Content 1*/
+.content1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: 500;
+    color: #EEF2F5;
+    background: #003254;
+    padding: 32px;
+    padding-top: 42px;
+}
+
+.content1 .column p {
+    margin-top: 20px;
+    width: 416px;
+    font-size: 16px;
+}
+
+.content1 .column2 {
+    position: relative;
+}
+
+.content1 .column2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Form - CSS  */
+
+.form {
+    background-color: #045186;
+}
+
+.form-content {
+    padding: 32px;
+    padding-bottom: 0;
+}
+
+.form form .input {
+    height: 52px;
+    width: 100%;
+    border-radius: 7px;
+    background-color: #2382BD;
+    position: relative;
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    color: #EEF2F5;
+}
+
+.input {
+
+    margin: 15px auto;
+}
+
+.input .input-float-vector {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.input p {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    width: 320px;
+    line-height: 14.4px;
+}
+
+.input .input-info {
+    position: relative;
+    left: 45px;
+    border: 4px solid #D64C88;
+    background: #EEF2F5;
+    border-radius: 5px;
+    height: 44px;
+
+}
+
+.input .input-info input {
+    border-radius: 5px;
+    border: none;
+    width: 240px;
+    height: 36px;
+    outline: none;
+    opacity: 0;
+}
+
+.input .button {
+    display: flex;
+    align-items: center;
+    background-color: #D64C88;
+    gap: 5px;
+}
+
+.input .button .btn {
+    padding-top: 9px;
+    text-align: center;
+    width: 118px;
+    height: 36px;
+    margin-bottom: 0;
+    color: #B2B2B2;
+    background-color: #EEF2F5;
+    border-radius: 5px;
+}
+
+.button .active {
+    background-color: #D64C88;
+    color: #EEF2F5;
+}
+
+.input .input-info input::placeholder {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.input .input-info .placeholder {
+    text-align: center;
+    width: 100%;
+    color: #B2B2B2;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    top: 10px;
+
+}
+
+.submit {
+    margin-top: -50px;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+
+form button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 435px;
+    margin-bottom: 15px;
+}
+
+form button img {
+    width: 100%;
+    z-index: 10;
+}
+
+
+/* Checked Inputs - CSS  */
+.form form .checked {
+    background-color: #1c6694;
+}
+
+.checked .input-float-vector {
+    opacity: 0;
+}
+
+.checked .input-info {
+    position: relative;
+    left: 25px;
+    border: 4px solid #D64C88;
+    background: #D64C88;
+    border-radius: 5px;
+    height: 44px;
+    color: #EEF2F5;
+
+}
+
+.checked .input-info .placeholder {
+    color: #EEF2F5;
+}
+
+.checked .button {
+    background-color: #1c6694;
+    border-color: #1c6694;
+}
+
+.checked .button .active {
+    background-color: #D64C88;
+    color: #EEF2F5;
+}
+
+
+/* on submit animation  */
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 2px #278FD0;
+    }
+
+    50% {
+        box-shadow: 0 0 5px #278FD0;
+    }
+
+    100% {
+        box-shadow: 0 0 2px #278FD0;
+    }
+}
+
+.input.blink {
+    animation: glow 1s ease-in-out;
+}

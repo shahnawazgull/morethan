@@ -1,0 +1,34 @@
+<svg width="144" height="342" viewBox="0 0 144 342" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g style="mix-blend-mode:plus-lighter" opacity="0.3">
+<g style="mix-blend-mode:color-dodge" opacity="0.5">
+<path d="M143.936 102.569C143.936 99.8074 141.697 97.5688 138.936 97.5688H0.451782V341.422H138.936C141.697 341.422 143.936 339.183 143.936 336.422V102.569Z" fill="url(#paint0_radial_1322_36361)"/>
+<path d="M142.936 102.569C142.936 100.36 141.145 98.5688 138.936 98.5688H1.45178V340.422H138.936C141.145 340.422 142.936 338.631 142.936 336.422V102.569Z" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
+</g>
+<line opacity="0.2" y1="-0.5" x2="83.0654" y2="-0.5" transform="matrix(-1 0 0 1 83.5176 219.891)" stroke="white"/>
+<line opacity="0.2" y1="-0.5" x2="83.0654" y2="-0.5" transform="matrix(-1 0 0 1 83.5176 176.813)" stroke="white"/>
+<line opacity="0.2" y1="-0.5" x2="83.0654" y2="-0.5" transform="matrix(-1 0 0 1 83.5176 135.89)" stroke="white"/>
+<circle opacity="0.5" cx="4.64693" cy="4.64693" r="4.64693" transform="matrix(-1 0 0 1 109.342 129.789)" fill="white"/>
+<circle opacity="0.5" cx="4.64693" cy="4.64693" r="4.64693" transform="matrix(-1 0 0 1 109.342 170.712)" fill="white"/>
+<circle opacity="0.5" cx="4.10004" cy="4.10004" r="4.10004" transform="matrix(-1 0 0 1 109.342 213.79)" fill="white"/>
+<g style="mix-blend-mode:color-dodge" opacity="0.5">
+<path d="M98.8516 5.4585C98.8516 2.69708 96.613 0.458496 93.8516 0.458496H-0.000205994V168.459H93.8516C96.613 168.459 98.8516 166.22 98.8516 163.459V5.4585Z" fill="url(#paint1_radial_1322_36361)"/>
+<path d="M97.8516 5.4585C97.8516 3.24936 96.0607 1.4585 93.8516 1.4585H0.999794V167.459H93.8516C96.0607 167.459 97.8516 165.668 97.8516 163.459V5.4585Z" stroke="white" stroke-opacity="0.2" stroke-width="2"/>
+</g>
+<line opacity="0.2" y1="-0.5" x2="57.2271" y2="-0.5" transform="matrix(-1 0 0 1 57.6797 84.7305)" stroke="white"/>
+<line opacity="0.2" y1="-0.5" x2="57.2271" y2="-0.5" transform="matrix(-1 0 0 1 57.6797 55.0527)" stroke="white"/>
+<line opacity="0.2" y1="-0.5" x2="57.2271" y2="-0.5" transform="matrix(-1 0 0 1 57.6797 26.8594)" stroke="white"/>
+<circle opacity="0.5" cx="3.20146" cy="3.20146" r="3.20146" transform="matrix(-1 0 0 1 75.0186 22.656)" fill="white"/>
+<circle opacity="0.5" cx="3.20146" cy="3.20146" r="3.20146" transform="matrix(-1 0 0 1 75.0186 50.8499)" fill="white"/>
+<circle opacity="0.5" cx="2.82469" cy="2.82469" r="2.82469" transform="matrix(-1 0 0 1 75.0186 80.5269)" fill="white"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_1322_36361" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(72.1937 219.495) scale(110.818 205.008)">
+<stop stop-color="#1FA2FC" stop-opacity="0"/>
+<stop offset="1" stop-color="#1FA2FC"/>
+</radialGradient>
+<radialGradient id="paint1_radial_1322_36361" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(49.4257 84.4586) scale(76.3473 141.238)">
+<stop stop-color="#1FA2FC" stop-opacity="0"/>
+<stop offset="1" stop-color="#1FA2FC"/>
+</radialGradient>
+</defs>
+</svg>
