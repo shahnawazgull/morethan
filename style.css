@@ -297,7 +297,7 @@ form button img {
     }
 
     .header-logo{
-        width: 500px;
+        width: 50vw;
     }
     .content1 {
         grid-template-columns: auto;
