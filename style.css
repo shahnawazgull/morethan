@@ -355,6 +355,6 @@ form button img {
         margin: 0;
     }
     .forimg{
-        width: 104%;
+        max-width: 100%;
     }
 }
