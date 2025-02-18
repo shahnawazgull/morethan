@@ -296,11 +296,9 @@ form button img {
         overflow-x: hidden;
     }
 
-    .header-logo {
-        width: 48vw;
+    .header-logo{
+        width: 50vw;
     }
-    
-
     .content1 {
         grid-template-columns: auto;
         text-align: center;
