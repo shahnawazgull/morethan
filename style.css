@@ -347,4 +347,7 @@ form button img {
         width: 80vw;
         margin-right: 10vw;
     }
+    .input .input-info .fortop{
+        top: 5px;
+    }
 }
