@@ -33,3 +33,21 @@ document.querySelectorAll('.button .btn').forEach(button => {
         this.classList.add('active');
     });
 });
+
+
+
+// calendar show 
+document.querySelectorAll('.input-info').forEach(inputInfo => {
+    let inputField = inputInfo.querySelector('input');
+    let placeholder = inputInfo.querySelector('.placeholder');
+
+    // Open the calendar when clicking on .input-info
+    inputInfo.addEventListener('click', function () {
+        inputField.showPicker(); // This opens the date picker on supported browsers
+    });
+
+    // Update the placeholder text when a date is selected
+    inputField.addEventListener('change', function () {
+        placeholder.textContent = this.value; // Set the p tag text to the selected date
+    });
+});
