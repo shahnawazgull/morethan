@@ -288,3 +288,32 @@ form button img {
 .input.blink {
     animation: glow 1s ease-in-out;
 }
+@media screen and (max-width:500px) {
+    header{
+        justify-content: center;
+    }
+    .header-logo{
+        width: 37vw;
+    }
+    .form-content{
+        padding: 13px;
+    }
+    
+    .input .input-info{
+        width: 142px;
+        left: 0px;
+    }
+    .content1 .column2{
+        display: none;
+    }
+    .content1 .column2{
+        padding: 15px;
+    }
+    .content1 .column p{
+        width: 359px;
+    }
+    .header-lines{
+        /* width: 80vw; */
+        display: none;
+    }
+}
