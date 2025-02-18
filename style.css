@@ -351,4 +351,7 @@ form button img {
     .input .input-info .fortop {
         top: 5px;
     }
+    .container{
+        margin: 0;
+    }
 }
