@@ -64,7 +64,7 @@ main {
 
 .container {
     margin: 100px auto;
-    width: 687px;
+    max-width: 687px;
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 0 0 250px #1FA2FC80;
@@ -312,6 +312,7 @@ form button img {
     .content1 .column p{
         width: 359px;
     }
+    
     .header-lines{
         /* width: 80vw; */
         display: none;
