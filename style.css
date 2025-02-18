@@ -64,7 +64,7 @@ main {
 
 .container {
     margin: 100px auto;
-    max-width: 687px;
+    width: 687px;
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 0 0 250px #1FA2FC80;
@@ -288,33 +288,63 @@ form button img {
 .input.blink {
     animation: glow 1s ease-in-out;
 }
+
+
 @media screen and (max-width:500px) {
-    header{
+    header {
         justify-content: center;
+        overflow-x: hidden;
     }
-    .header-logo{
+
+    .header-logo {
         width: 37vw;
     }
-    .form-content{
+
+    .content1 {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .content1 .column2 {
+        margin-top: 25px;
+    }
+
+    .content1 .column {
+        width: 80vw;
+    }
+
+    .content1 .column p {
+        width: 100%;
+    }
+
+    .content1 .column2 img {
+        position: sticky;
+    }
+
+    .form-header .header-img {
+        width: 100%;
+    }
+
+    .form-content {
         padding: 13px;
     }
-    
-    .input .input-info{
+
+    .input .input-info {
         width: 142px;
         left: 0px;
     }
-    .content1 .column2{
-        display: none;
+
+    .header-lines {
+        width: 100%;
     }
-    .content1 .column2{
-        padding: 15px;
+
+    .submit {
+        flex-direction: column;
+        margin-top: 0;
     }
-    .content1 .column p{
-        width: 359px;
-    }
-    
-    .header-lines{
-        /* width: 80vw; */
-        display: none;
+
+    form button {
+        width: 80vw;
+        margin-right: 10vw;
     }
 }
